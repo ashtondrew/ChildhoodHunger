@@ -1,3 +1,5 @@
+library(leaflet)
+
 shinyUI(
     fluidPage(
         wellPanel(

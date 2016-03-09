@@ -8,11 +8,11 @@ library(DT) # interactive data table package
 # Load data obtained from Dr. Zeydy Ortiz's Data4Good United Way project
 # Github account
 
-load("E:/P_Consulting/Proposals-Dev/Todd/uwtracts.RData")
+load("uwtracts.RData")
 uwtracts2014 <- uwtracts
-load("E:/P_Consulting/Proposals-Dev/Todd/uwtracts2009.RData")
+load("uwtracts2009.RData")
 uwtracts2009 <- uwtracts
-load("E:/P_Consulting/Proposals-Dev/Todd/countyStats.RData")
+load("countyStats.RData")
 
 # Create data frame for county ids
 counties <- data.frame(Num = c("063","101","135", "183"), Name=c("Durham", "Johnston", "Orange", "Wake"))
